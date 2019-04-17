@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Huajie.Practices.LPR</name>
+    </assembly>
+    <members>
+        <member name="T:Huajie.Practices.LPR.IPlateRecognizer">
+            <summary>
+            车牌识别服务
+            </summary>
+        </member>
+        <member name="M:Huajie.Practices.LPR.IPlateRecognizer.Recognize(System.String,System.Int32)">
+            <summary>
+            识别
+            </summary>
+            <param name="fileName"></param>
+            <param name="maxPlateCount"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Huajie.Practices.LPR.PlateInfo">
+            <summary>
+            车牌信息
+            </summary>
+        </member>
+        <member name="P:Huajie.Practices.LPR.PlateInfo.Number">
+            <summary>
+            车牌号码
+                - 例如: 浙C12345
+            </summary>
+        </member>
+        <member name="P:Huajie.Practices.LPR.PlateInfo.Type">
+            <summary>
+            车牌类型
+            </summary>
+        </member>
+        <member name="T:Huajie.Practices.LPR.PlateRecognizeResult">
+            <summary>
+            车牌识别结果
+            </summary>
+        </member>
+        <member name="P:Huajie.Practices.LPR.PlateRecognizeResult.Plates">
+            <summary>
+            识别结果
+                - 如果没有车牌被识别, 此属性值将为空数组.
+            </summary>
+        </member>
+        <member name="T:Huajie.Practices.LPR.PlateType">
+            <summary>
+            车牌类型
+            </summary>
+        </member>
+        <member name="F:Huajie.Practices.LPR.PlateType.Unknown">
+            <summary>
+            未知的类型
+            </summary>
+        </member>
+        <member name="F:Huajie.Practices.LPR.PlateType.LightCar">
+            <summary>
+            小型汽车
+                - 蓝底白字
+            </summary>
+        </member>
+        <member name="F:Huajie.Practices.LPR.PlateType.HeavyCar">
+            <summary>
+            大型汽车
+                - 黄底黑字
+            </summary>
+        </member>
+        <member name="F:Huajie.Practices.LPR.PlateType.GreenLightCar">
+            <summary>
+            新能源小型汽车
+            </summary>
+        </member>
+        <member name="F:Huajie.Practices.LPR.PlateType.GreenHeavyCar">
+            <summary>
+            新能源大型汽车
+            </summary>
+        </member>
+    </members>
+</doc>

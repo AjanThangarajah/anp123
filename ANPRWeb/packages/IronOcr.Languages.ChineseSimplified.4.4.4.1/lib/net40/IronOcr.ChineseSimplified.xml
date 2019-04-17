@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IronOcr.ChineseSimplified</name>
+    </assembly>
+    <members>
+        <member name="T:IronOcr.Languages.ChineseSimplified">
+            <summary>
+              Simplified Chinese Language Pack for IronOcr.  
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.ChineseSimplified.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="P:IronOcr.Languages.ChineseSimplified.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.ChineseSimplified.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.ChineseSimplified.ToString">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.ChineseSimplified.OcrLanguagePack">
+            Simplified Chinese (chi_sim) language pack.
+        </member>
+    </members>
+</doc>

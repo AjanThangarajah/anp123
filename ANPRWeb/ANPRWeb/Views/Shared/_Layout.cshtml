@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*@Html.ActionLink("ANPR Web", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+                <a href="/" style="text-decoration: none;color: white;">
+                    <span style="font-size:4rem;font-weight:bold;font-family:monospace;">ANPRWeb</span>
+                    <p class="lead" style="padding-left:30px;font-family:monospace;font-size:14px !important; position:relative;top:-10px;">[[An <u>A</u>utomatic <u>N</u>umber <u>P</u>late <u>R</u>ecognition]]</p>
+                </a>
+            </div>
+            <div class="navbar-collapse collapse" style="padding-top:28px;display:none !important">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content form-group" style="padding-top:100px !important;">
+
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Abirami Amalaraj</p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

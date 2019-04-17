@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IronOcr.German</name>
+    </assembly>
+    <members>
+        <member name="T:IronOcr.Languages.German">
+            <summary>
+              German (Deutsch) Language Pack for IronOcr.  
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.German.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="P:IronOcr.Languages.German.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.German.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.German.ToString">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.German.OcrLanguagePack">
+            German (deu) Language pack covering all modern dialects of the German/Deutsch Language.
+        </member>
+    </members>
+</doc>

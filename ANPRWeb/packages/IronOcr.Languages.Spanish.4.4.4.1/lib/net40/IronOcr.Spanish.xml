@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IronOcr.Spanish</name>
+    </assembly>
+    <members>
+        <member name="T:IronOcr.Languages.Spanish">
+            <summary>
+              Spanish (Español /Castilian) Language Pack for IronOcr.  
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.Spanish.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="P:IronOcr.Languages.Spanish.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.Spanish.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.Spanish.ToString">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.Spanish.OcrLanguagePack">
+            Spanish (spa) Language pack for IronOcr covering both European and American Dialects of Spanish
+        </member>
+    </members>
+</doc>

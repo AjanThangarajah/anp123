@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IronOcr.Finnish</name>
+    </assembly>
+    <members>
+        <member name="T:IronOcr.Languages.Finnish">
+            <summary>
+              Finnish  (Suomi / Suomen Kieli ) Language Pack for IronOcr.  
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.Finnish.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="P:IronOcr.Languages.Finnish.LanguageCode">
+            <exclude />xw
+        </member>
+        <member name="M:IronOcr.Languages.Finnish.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.Finnish.ToString">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.Finnish.OcrLanguagePack">
+            Finnish/Suomi (fin) language pack.
+        </member>
+    </members>
+</doc>

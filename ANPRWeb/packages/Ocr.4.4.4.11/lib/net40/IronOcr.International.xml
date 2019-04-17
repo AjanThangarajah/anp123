@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IronOcr.International</name>
+    </assembly>
+    <members>
+        <member name="T:IronOcr.Languages.BiLingual.ArabicEngineering">
+            <summary>
+              Composite language pack covering Arabic and English words and technical terms.
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.ArabicEngineering.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.ArabicEngineering.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.BiLingual.ArabicEngineering.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.ArabicEngineering.ToString">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.ArabicEngineering.OcrLanguagePack">
+            <summary>
+              Composite language pack covering Arabic and English words and technical terms.
+            </summary>
+        </member>
+        <member name="T:IronOcr.Languages.BiLingual.JapaneseEngineering">
+            <summary>
+              Composite language pack covering English, Japanese and common simplified Chinese characters.
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.JapaneseEngineering.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.JapaneseEngineering.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.BiLingual.JapaneseEngineering.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.JapaneseEngineering.ToString">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.JapaneseEngineering.OcrLanguagePack">
+              Composite language pack covering English, Japanese and common simplified Chinese characters.
+        </member>
+        <member name="T:IronOcr.Languages.BiLingual.ChineseEngineering">
+            <summary>
+              Composite language pack covering English and Simplified Chinese.
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.ChineseEngineering.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.ChineseEngineering.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.BiLingual.ChineseEngineering.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.ChineseEngineering.ToString">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.ChineseEngineering.OcrLanguagePack">
+              Composite language pack covering English and Simplified Chinese.
+        </member>
+        <member name="T:IronOcr.Languages.BiLingual.Californian">
+            <summary>
+              Composite language pack covering English and Spanish.
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.Californian.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.Californian.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.BiLingual.Californian.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.Californian.ToString">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.Californian.OcrLanguagePack">
+              Composite language pack covering English and Spanish.
+        </member>
+        <member name="T:IronOcr.Languages.BiLingual.Canadian">
+            <summary>
+              Composite language pack covering English, French and Quebecois dialect French;
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.Canadian.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.Canadian.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.BiLingual.Canadian.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.Canadian.ToString">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.BiLingual.Canadian.OcrLanguagePack">
+            <summary>
+            Canadian English, French and Quebecois language pack.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+   
+}
+<div id="loginContainer" class="form-horizontal loginActive">
+    <div class="col-lg-offset-4 col-lg-4" style="background: black;width: 300px;padding: 25px;position: relative;top: 100px;border: 1px solid;border-radius: 10px; left: 100px;">
+        <div>
+            <div class="form-group" style="text-align:center">
+                <span style="color:white; font-size:2rem;">Welcome to ANPRWeb</span>
+            </div>
+            <div class="form-group">
+                <input placeholder="UserName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input placeholder="Password" type="password" class="form-control" />
+            </div>
+            <div class="form-group" style="float:right">
+                <button id="btnLogin" value="Login">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mainContainer" class="form-horizontal" style="display:none">
+    <div class="jumbotron form-group">
+        <div class="col-lg-3">
+            <span style="font-size:4rem;font-weight:bold;font-family:monospace;">Vechile Info</span>
+            <div ><span id="vnumber"></span></div>
+        </div>
+        <div class="col-lg-6">
+            <img id="vImg" src="#" alt="Last vechile scanned" />
+        </div>
+        <div class="col-lg-3 previousCapt" style="padding-left:10px;">
+            <div>
+                <img src="~/CarImages/a.jpg" height="50" alt="Last vechile scanned" /> YAA 122
+            </div><br />
+            <div>
+                <img src="~/CarImages/a.jpg" height="50" alt="Last vechile scanned" /> YAA 122
+            </div><br />
+            <div>
+                <img src="~/CarImages/a.jpg" height="50" alt="Last vechile scanned" /> YAA 122
+            </div><br />
+            <div>
+                <img src="~/CarImages/a.jpg" height="50" alt="Last vechile scanned" /> YAA 122
+            </div><br />
+            <div>
+                <img src="~/CarImages/a.jpg" height="50" alt="Last vechile scanned" /> YAA 122
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group" style="border: 1px solid black;border-radius: 10px; padding: 10px; background-color: beige;">
+        <div class="row">
+            <span style="font-size: 3rem;font-weight: bold;padding-left: 50px;"><u>Alert/Warning</u></span>
+        </div>
+        <div class="row">
+            <span id="alerts" style="font-size: 3rem;font-weight: bold;padding-left: 70px;">No Alerts</span>
+        </div>
+        @*<div class="col-md-4">
+                <h2>Captured Image</h2>
+                <p>
+                    <img src="~/" />
+                </p>
+                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Information</h2>
+                <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Alert(s)</h2>
+                <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            </div>*@
+    </div>
+</div>
+<script>
+    $().ready(function(){
+        setInterval(function () {
+            $.ajax({
+                url: "/Home/getVechile",
+                success: function (ret) {
+                    if (ret.imgPath) {
+                        $("#vImg").prop("src", ret.imgPath);
+                        $("#vnumber").text(ret.Number);
+                    }
+                }
+            });
+        }, 1000);
+        $("#btnLogin").on("click", function () {
+            $("#loginContainer").hide();
+            $("#mainContainer").show();
+            $("#loginContainer").removeClass("loginActive");
+            $(".navbar-collapse").show();
+
+        });
+    });
+</script>

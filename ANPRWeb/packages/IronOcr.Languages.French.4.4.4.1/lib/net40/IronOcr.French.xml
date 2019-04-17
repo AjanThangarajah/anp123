@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IronOcr.French</name>
+    </assembly>
+    <members>
+        <member name="T:IronOcr.Languages.French">
+            <summary>
+              French (Français) Language Pack for IronOcr.  
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.French.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="P:IronOcr.Languages.French.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.French.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.French.ToString">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.French.OcrLanguagePack">
+            French (fra) Language pack for IronOcr
+        </member>
+    </members>
+</doc>

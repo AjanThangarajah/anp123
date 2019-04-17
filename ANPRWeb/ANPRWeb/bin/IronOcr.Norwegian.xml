@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IronOcr.Norwegian</name>
+    </assembly>
+    <members>
+        <member name="T:IronOcr.Languages.Norwegian">
+            <summary>
+              Norwegian (Bokmål &amp; Nynorsk "Norsk" ) Language Pack for IronOcr.  
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.Norwegian.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="P:IronOcr.Languages.Norwegian.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.Norwegian.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.Norwegian.ToString">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.Norwegian.OcrLanguagePack">
+            Norwegian (Bokmål &amp; Nynorsk) (nor) language pack.
+        </member>
+    </members>
+</doc>

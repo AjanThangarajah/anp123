@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IronOcr.Arabic</name>
+    </assembly>
+    <members>
+        <member name="T:IronOcr.Languages.Arabic">
+            <summary>
+              Arabic (العَرَبِيَّة‎‎ / عَرَبِيّ‎‎ ) Language Pack for IronOcr.  
+              <para> Requires IronOcr to be of value http://ironsoftware.com/csharp/ocr/ </para>
+              <example><code>IronOcr.Language = IronOcr.Languages.Arabic.OcrLanguagePack</code></example>
+            </summary>
+        </member>
+        <member name="P:IronOcr.Languages.Arabic.LanguageCode">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.Arabic.Deploy(System.String)">
+            <exclude />
+        </member>
+        <member name="M:IronOcr.Languages.Arabic.ToString">
+            <exclude />
+        </member>
+        <member name="P:IronOcr.Languages.Arabic.OcrLanguagePack">
+            Arabic (ara) language pack.
+        </member>
+    </members>
+</doc>
